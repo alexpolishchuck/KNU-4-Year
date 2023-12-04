@@ -1,0 +1,104 @@
+2023-10-15 13:07:18.050662600000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 13:15:07.602404600000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-10-15 13:44:18.881655500000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-10-15 13:52:31.031493000000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 13:53:23.843014300000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 13:55:11.746110700000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 13:55:32.360011400000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-10-15 14:09:13.355395200000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 14:11:47.238590800000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:12:51.706141700000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:13:48.035942300000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:15:26.137240800000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:17:21.611281300000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:20:13.839206200000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 14:20:33.895546200000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:21:03.260936200000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:21:18.405220000000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:27:05.580602500000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:37:01.256337600000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 14:39:49.993095700000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:40:30.568878600000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:41:40.204522400000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:43:15.710096900000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:44:37.666848300000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:45:17.036202400000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:46:06.354618700000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 14:46:21.011509200000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:50:49.342080600000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 14:59:51.571744400000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-10-15 19:39:44.960401000000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 19:40:16.420231400000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 19:40:46.361366900000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 20:06:22.220773300000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 20:08:09.764288700000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 20:08:20.463786300000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 20:08:32.167511900000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 20:17:00.655784000000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 20:23:59.089116300000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 20:25:03.214970600000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 20:25:32.950391100000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 20:26:34.694352300000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 20:26:54.954244100000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 20:27:22.853280800000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 21:19:44.983181000000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 21:26:59.312545600000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 21:38:31.962112500000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 21:39:22.404813900000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 21:40:36.947884400000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 21:40:57.633464400000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 21:42:18.694516900000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 21:45:59.689336100000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 21:51:30.293765000000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 21:52:06.540174700000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 21:52:15.840535300000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 21:52:47.287449500000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 21:53:34.385947700000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 21:55:47.153724500000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 21:57:02.593096000000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 21:57:23.587894100000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 21:57:40.169419900000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 21:57:47.919850900000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-15 21:58:13.232927800000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 21:59:21.879973300000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 21:59:39.869978700000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 22:01:20.244007200000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 22:02:12.563749100000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-10-15 22:19:06.571652700000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-11-09 21:09:21.015803800000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-09 22:33:57.801638600000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-09 22:35:18.110491400000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-09 22:35:21.766610100000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 00:00:46.147811300000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 10:45:53.548463000000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\test1\test\app\Main.hs> [("DatabaseConnection","D:\\gitrepo\\Haskell\\test1\\test\\src\\DatabaseConnection.hs"),("MenuModule","D:\\gitrepo\\Haskell\\test1\\test\\src\\MenuModule.hs")])
+2023-11-11 10:45:53.576470300000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 10:46:24.804313500000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\test1\test\app\Main.hs> [("DatabaseConnection","D:\\gitrepo\\Haskell\\test1\\test\\src\\DatabaseConnection.hs"),("MenuModule","D:\\gitrepo\\Haskell\\test1\\test\\src\\MenuModule.hs")])
+2023-11-11 10:46:24.821313200000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 10:49:47.675729000000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\test1\test\app\Main.hs> [("DatabaseConnection","D:\\gitrepo\\Haskell\\test1\\test\\src\\DatabaseConnection.hs"),("MenuModule","D:\\gitrepo\\Haskell\\test1\\test\\src\\MenuModule.hs")])
+2023-11-11 10:49:47.697576900000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 11:50:22.764163500000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\test1\test\app\Main.hs> [("DatabaseConnection","D:\\gitrepo\\Haskell\\test1\\test\\src\\DatabaseConnection.hs"),("MenuModule","D:\\gitrepo\\Haskell\\test1\\test\\src\\MenuModule.hs")])
+2023-11-11 11:50:22.783507000000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 12:15:00.504777300000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\test1\test\app\Main.hs> [("DatabaseConnection","D:\\gitrepo\\Haskell\\test1\\test\\src\\DatabaseConnection.hs"),("MenuModule","D:\\gitrepo\\Haskell\\test1\\test\\src\\MenuModule.hs")])
+2023-11-11 12:15:00.518651600000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 12:27:28.705120500000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\test1\test\app\Main.hs> [("DatabaseConnection","D:\\gitrepo\\Haskell\\test1\\test\\src\\DatabaseConnection.hs"),("MenuModule","D:\\gitrepo\\Haskell\\test1\\test\\src\\MenuModule.hs")])
+2023-11-11 12:27:28.741231800000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 12:27:59.138241600000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\test1\test\app\Main.hs> [("DatabaseConnection","D:\\gitrepo\\Haskell\\test1\\test\\src\\DatabaseConnection.hs"),("MenuModule","D:\\gitrepo\\Haskell\\test1\\test\\src\\MenuModule.hs")])
+2023-11-11 12:27:59.159895100000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 12:28:21.740574700000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\test1\test\app\Main.hs> [("DatabaseConnection","D:\\gitrepo\\Haskell\\test1\\test\\src\\DatabaseConnection.hs"),("MenuModule","D:\\gitrepo\\Haskell\\test1\\test\\src\\MenuModule.hs")])
+2023-11-11 12:28:21.753049800000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 12:28:40.047725100000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\test1\test\app\Main.hs> [("DatabaseConnection","D:\\gitrepo\\Haskell\\test1\\test\\src\\DatabaseConnection.hs"),("MenuModule","D:\\gitrepo\\Haskell\\test1\\test\\src\\MenuModule.hs")])
+2023-11-11 12:28:40.070304200000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 18:32:46.255205600000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 18:48:38.847870500000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\test1\test\app\Main.hs> [("MenuModule","D:\\gitrepo\\Haskell\\test1\\test\\src\\MenuModule.hs")])
+2023-11-11 18:48:38.870290200000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 20:43:19.497899600000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 20:44:44.860243400000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 20:53:24.201435900000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 20:57:12.902819900000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 21:17:09.601029800000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 21:56:16.705683300000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\test1\test\app\Main.hs> [("DatabaseConnection","D:\\gitrepo\\Haskell\\test1\\test\\src\\DatabaseConnection.hs"),("MenuModule","D:\\gitrepo\\Haskell\\test1\\test\\src\\MenuModule.hs")])
+2023-11-11 21:56:16.780783700000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-11 22:16:37.979675700000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-11-30 22:32:58.396569900000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-01 19:20:05.421294500000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\test1\test\src\MenuModule.hs> [("DatabaseConnection","D:\\gitrepo\\Haskell\\test1\\test\\src\\DatabaseConnection.hs"),("Models.SubscriptionModel","D:\\gitrepo\\Haskell\\test1\\test\\src\\Models\\SubscriptionModel.hs"),("Models.UsersModel","D:\\gitrepo\\Haskell\\test1\\test\\src\\Models\\UsersModel.hs"),("SubscriptionsMenu","D:\\gitrepo\\Haskell\\test1\\test\\src\\SubscriptionsMenu.hs"),("UsersMenu","D:\\gitrepo\\Haskell\\test1\\test\\src\\UsersMenu.hs")])
+2023-12-01 19:20:05.448223700000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"

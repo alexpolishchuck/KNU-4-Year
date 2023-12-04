@@ -1,0 +1,64 @@
+2023-12-01 23:45:17.762829700000 [$pid(ThreadId 5)] ERROR APP - <file descriptor: 5>: hPutChar: resource vanished (Broken pipe)
+2023-12-01 23:51:19.675789900000 [$pid(ThreadId 5)] CRITICAL APP - invalid dap result from ghci. ["Test<<DAP>>Right (StoppedEventBody {reasonStoppedEventBody = \"complete\", descriptionStoppedEventBody = \"\", threadIdStoppedEventBody = 0, textStoppedEventBody = \"\", allThreadsStoppedStoppedEventBody = True})","H>>= "]
+2023-12-02 00:10:05.404609600000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:11:17.702448300000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-12-02 00:11:29.801089400000 [$pid(ThreadId 5)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-12-02 00:11:39.442864800000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:14:32.687831400000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:15:57.824848700000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:17:59.487541100000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 00:17:59.507617600000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:18:45.606549200000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 00:18:45.624688900000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:21:03.042456200000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:24:45.744943500000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:24:49.990785300000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 00:24:57.840111000000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 00:24:57.866975000000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:25:24.151699900000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 00:25:24.172046500000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:27:34.649909800000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 00:27:34.673111500000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:42:16.414903700000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 00:42:16.435180600000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:43:24.421880200000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 00:43:24.443351300000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:44:00.987120800000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 00:44:01.010675800000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:44:26.393353200000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 00:44:26.410119200000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:45:33.969310900000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 00:45:33.987726000000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 00:59:46.253449700000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 00:59:46.280300600000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 01:00:43.547694800000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 01:00:43.566171300000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 01:03:10.615561200000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 01:03:10.634946600000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 14:30:32.472553900000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 14:30:32.490469800000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 14:34:24.856180600000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 14:34:24.874786600000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 15:23:05.462639500000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 15:23:05.481596600000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 15:24:03.491672500000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <d:\gitrepo\Haskell\lab2\lab2\app\Main.hs> [])
+2023-12-02 15:24:03.510547700000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 15:24:18.644871600000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 15:24:38.983593200000 [$pid(ThreadId 5)] ERROR APP - user error (no stacktrace found.)
+2023-12-02 15:24:39.015603000000 [$pid(ThreadId 5)] ERROR APP - user error (no stacktrace found.)
+2023-12-02 15:50:14.722745500000 [$pid(ThreadId 5)] ERROR APP - user error (no stacktrace found.)
+2023-12-02 15:50:14.753725900000 [$pid(ThreadId 5)] ERROR APP - user error (no stacktrace found.)
+2023-12-02 15:50:53.740988700000 [$pid(ThreadId 5)] ERROR APP - user error (no stacktrace found.)
+2023-12-02 15:50:53.774859300000 [$pid(ThreadId 5)] ERROR APP - user error (no stacktrace found.)
+2023-12-02 15:51:16.140341300000 [$pid(ThreadId 5)] ERROR APP - user error (no stacktrace found.)
+2023-12-02 15:51:16.171296000000 [$pid(ThreadId 5)] ERROR APP - user error (no stacktrace found.)
+2023-12-02 15:53:22.083763300000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 17:30:29.137574200000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 17:30:42.338835100000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 17:31:36.386027500000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 17:31:59.936411200000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 18:02:40.096003900000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 18:04:31.854494700000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 19:20:17.574081100000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 19:23:23.341297100000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2023-12-02 19:27:32.707432500000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
