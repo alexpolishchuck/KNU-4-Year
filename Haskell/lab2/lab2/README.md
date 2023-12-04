@@ -23,4 +23,4 @@
 
 ## Гіф - демонстрація
 
-![](https://github.com/alexpolishchuck/KNU-4-Year/blob/main/Haskell/Lab2/lab2/Lab2.gif)
+![](https://github.com/alexpolishchuck/KNU-4-Year/tree/main/Haskell/lab2/lab2/Lab2.gif)
