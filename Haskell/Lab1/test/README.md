@@ -77,4 +77,4 @@ TESTROLE
 
 ## Гіф - демонстрація
 
-![](https://github.com/alexpolishchuck/KNU-4-Year/edit/main/Haskell/Lab1/test/Lab1.gif)
+![](https://github.com/alexpolishchuck/KNU-4-Year/blob/main/Haskell/Lab1/test/Lab1.gif)
