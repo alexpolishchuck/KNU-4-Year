@@ -1,0 +1,11 @@
+@import url(../Styles/FontStyles.css);
+
+html, body, #root
+{
+    min-height: 100vh;
+}
+
+body, #root
+{
+    height: fit-content;
+}

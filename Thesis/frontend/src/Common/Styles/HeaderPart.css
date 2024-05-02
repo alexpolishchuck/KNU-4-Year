@@ -1,0 +1,15 @@
+.headerStyle
+{
+    background-color: #153243;
+    font-family: "Poppins Bold";
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    color: #F4F9E9;
+    width: 100%;
+    height: fit-content;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

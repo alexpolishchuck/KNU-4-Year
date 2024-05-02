@@ -1,0 +1,12 @@
+@import url(../Common/Styles/FontStyles.css);
+
+.mainButton
+{
+    background-color: #9AC8CD;
+    color: #0E46A3;
+    font-family: "Poppins Bold";
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    max-width: fit-content;
+}
