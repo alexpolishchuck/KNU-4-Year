@@ -1,38 +1,67 @@
-import React from "react";
+import axios from 'axios'
+import FormData from'form-data'
+import { createIpfsUnpinUrl } from './UserPageUtils';
 
-const axios = require('axios')
-const FormData = require('form-data')
-const fs = require('fs')
-const JWT = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiIyZTNhMTIzNS0yNTA2LTQ2MWQtOTQyOC1jMDUwMjVkYzUyYTMiLCJlbWFpbCI6InBvbGlzaGNodWNrYWxleEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGluX3BvbGljeSI6eyJyZWdpb25zIjpbeyJpZCI6IkZSQTEiLCJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MX0seyJpZCI6Ik5ZQzEiLCJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MX1dLCJ2ZXJzaW9uIjoxfSwibWZhX2VuYWJsZWQiOmZhbHNlLCJzdGF0dXMiOiJBQ1RJVkUifSwiYXV0aGVudGljYXRpb25UeXBlIjoic2NvcGVkS2V5Iiwic2NvcGVkS2V5S2V5IjoiYWUyMDUyM2U1NDI4ZGZlYTZhNzQiLCJzY29wZWRLZXlTZWNyZXQiOiI3ZDNmMGI5NWU0MDc5ZDU3YmQ1MmFkNjgzZTAwOGJiODkyNWY1YjBkMzNiNWNhZGRiYjYwNzBkYWQyYWQ1NDUwIiwiaWF0IjoxNzE0NjY0ODM0fQ.Q6mD7tReg_LD8_t8UwP4Zf1AXlhaoeQolroBs_A7Zy4
+const JWT = process.env.REACT_APP_PINATA_API_KEY
 
-const pinFileToIPFS = async () => {
+export const pinFileToIPFS = async (file) => {
+  try 
+  {
     const formData = new FormData();
-    const src = "path/to/file.png";
-    
-    const file = fs.createReadStream(src)
-    formData.append('file', file)
-    
-    const pinataMetadata = JSON.stringify({
-      name: 'File name',
-    });
-    formData.append('pinataMetadata', pinataMetadata);
-    
-    const pinataOptions = JSON.stringify({
-      cidVersion: 0,
-    })
-    formData.append('pinataOptions', pinataOptions);
+    formData.append("file", file);
 
-    try{
-      const res = await axios.post("https://api.pinata.cloud/pinning/pinFileToIPFS", formData, {
-        maxBodyLength: "Infinity",
+    const metadata = JSON.stringify({
+      name: "File name",
+    });
+    formData.append("pinataMetadata", metadata);
+
+    const options = JSON.stringify({
+      cidVersion: 0,
+    });
+    formData.append("pinataOptions", options);
+
+    const res = await fetch(
+      "https://api.pinata.cloud/pinning/pinFileToIPFS",
+      {
+        method: "POST",
         headers: {
-          'Content-Type': `multipart/form-data; boundary=${formData._boundary}`,
-          'Authorization': `Bearer ${JWT}`
-        }
-      });
-      console.log(res.data);
-    } catch (error) {
-      console.log(error);
-    }
+          Authorization: `Bearer ${JWT}`,
+        },
+        body: formData,
+      }
+    );
+
+    const resData = await res.json();
+    console.log(resData);
+
+    if(resData.isDuplicate)
+      return null
+
+    return resData.IpfsHash
+  } 
+  catch (error) 
+  {
+    console.log(error);
+  }
+
+  return null
 }
-pinFileToIPFS()
+
+export const unpinFileFromIPFS = async (hash) => {
+  let unpinUrl = createIpfsUnpinUrl(hash)
+
+  try {
+    const response = await fetch(
+      unpinUrl,
+      {
+        method: "DELETE",
+        headers: {
+          accept: "application/json",
+          Authorization: JWT,
+        },
+      }
+    );
+  } catch (error) {
+    console.log(error);
+  }
+}

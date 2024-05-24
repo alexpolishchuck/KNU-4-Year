@@ -1,0 +1,33 @@
+@import '../../Common/Styles/FontStyles.css';
+
+.uploadsTable{
+    color: #284B63;
+    font-family: 'Poppins';
+    width: 100%;
+    height: fit-content;
+    margin: 0 5%;
+    font-size: 24px;
+}
+
+.uploadsTable tr{
+    color: #284B63;
+    font-family: 'Poppins';
+    max-height: fit-content;
+
+}
+
+.uploadsTable td, th{
+    max-height: fit-content;
+    text-align: center;
+    padding: 0.2em 0;
+}
+
+.uploadsTable th{
+    text-align: center;
+    background-color: #B4B8AB;
+}
+
+.uploadsTable tr:nth-child(even) {
+    background-color: #B4B8AB;
+}
+

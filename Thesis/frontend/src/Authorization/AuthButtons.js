@@ -7,7 +7,7 @@ export const LoginButton = () => {
 
   return(
   !isAuthenticated 
-  && <button class='mainButton' onClick={() => loginWithRedirect()}>Login</button>
+  && <button className='mainButton' onClick={loginWithRedirect}>Login</button>
   )
 };
 
@@ -27,7 +27,7 @@ export const SignUpButton = () =>{
 
   return(
   !isAuthenticated 
-  && <button class='mainButton' onClick={handleSignUp}>SignUp</button>
+  && <button className='mainButton' onClick={handleSignUp}>SignUp</button>
   )
 }
 
@@ -35,7 +35,7 @@ export const LogoutButton = () => {
   const { logout } = useAuth0();
 
   return (
-    <button class='mainButton' onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+    <button className='mainButton' onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
       Logout
     </button>
   );

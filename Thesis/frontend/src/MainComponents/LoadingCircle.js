@@ -4,10 +4,10 @@ import Header from './Header'
 
 const LoadingCircle = () => {
   return (
-    <div class="mainBackground">
+    <div className="mainBackground">
         <Header/>
-        <div class="spinner-border mx-auto my-auto" role="status">
-          <span class="sr-only"></span>
+        <div className="spinner-border mx-auto my-auto" role="status">
+          <span className="sr-only"></span>
         </div>
     </div>
   );

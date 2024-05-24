@@ -6,14 +6,13 @@ import '../Common/Styles/Common.css'
 import '../Common/Styles/MainPart.css'
 
 const LoginPageContent = () => {
-  const { logout } = useAuth0();
   const { user, isAuthenticated} = useAuth0();
 
   return (
     !isAuthenticated && 
-    <div class='mainBackground'>
+    <div className='mainBackground'>
         <Header/>
-        <div class='d-flex mx-auto my-lg-auto my-2'>
+        <div className='d-flex mx-auto my-lg-auto my-2'>
           <LoginButton/>
           <div className="ms-2">
             <SignUpButton/>

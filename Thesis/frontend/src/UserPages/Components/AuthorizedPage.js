@@ -10,12 +10,12 @@ const USER_ROLE = "ROLE_USER"
 
 const AdminPage = () => {
     // TODO: 
-    const {loginWithRedirect, isAuthenticated} = useAuth0();
+    const {isAuthenticated} = useAuth0();
 
     return(
         isAuthenticated 
         && 
-        <div class='mainBackground'>
+        <div className='mainBackground'>
             <Header/>
             <h1>
                 ADMIN
@@ -25,7 +25,7 @@ const AdminPage = () => {
 }
 
 export const AuthorizedPage = () => {
-    const {user, loginWithRedirect, isAuthenticated} = useAuth0();
+    const {user, isAuthenticated} = useAuth0();
 
     const roles = user[USER_ROLES_CLAIM];
 
@@ -38,7 +38,7 @@ export const AuthorizedPage = () => {
     return(
         isAuthenticated 
         && 
-        <div class='mainBackground'>
+        <div className='mainBackground'>
             {pageContent}
         </div>
     )

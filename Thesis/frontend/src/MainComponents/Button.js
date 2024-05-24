@@ -3,7 +3,11 @@ import { useAuth0 } from "@auth0/auth0-react";
 import '../Common/Styles/MainPart.css'
 
 export const Button = ({buttonName, onClickFunc}) => {
+  const onClick = async () => {
+    await onClickFunc();
+  }
+  
   return(
-    <button class='button' onClick={() => onClickFunc()}>{buttonName}</button>
+    <button className='button' onClick={onClick}>{buttonName}</button>
   )
 };

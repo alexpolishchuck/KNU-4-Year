@@ -3,40 +3,83 @@ import { useAuth0 } from "@auth0/auth0-react";
 import {useState} from "react";
 import Header from '../../MainComponents/Header'
 import {Button} from '../../MainComponents/Button'
-import '../../Common/Styles/MainPart.css'
-import { ReactComponent as UploadSign } from '../../Images/upload-sign.svg'
+import {DragAndDropZone} from './DragAndDrop'
+import {getUserInfo, addUser, getWallets, userWalletExists} from './UserPageRequests'
 
-const DragAndDropZone = () => {
-    return(
-        <div class='mainBackground align-items-center justify-content-center'>
-            <UploadSign fill='#284B63' width='5%' height='5%'/>
-            <h2 class='text-capitalize mt-3'>Drag and Drop to Upload</h2>
-        </div>
-    )
+import '../../Common/Styles/MainPart.css'
+import '../Styles/UserPage.css'
+import { addWallet } from "./UserPageRequests";
+import { VerificationForm } from "./VerificationForm";
+
+async function onFirstLogin(getAccessTokenSilently, auth0User)
+{
+            let email = auth0User.email
+            let user = await getUserInfo(email)
+
+            if(user != null)
+            {
+                console.log('[DEBUG] onFirstLogin. User already exists.')
+                return;
+            }
+
+            let token = await getAccessTokenSilently()
+            let name = ''
+            let surname = ''
+            addUser(token, email, name, surname)
 }
 
 const UserPageSideBar = ({setContentFunc}) => {
     return(
-        <div class = 'sideBar'>
-            <div class = 'buttonHolder'>
+        <div className = 'sideBar'>
+            <div className = 'buttonHolder'>
                 <hr/>
-                <h2 class = 'mt-2'>Menu</h2>
+                <h2 className = 'mt-2'>Menu</h2>
                 <Button buttonName={"Upload video"} onClickFunc={() => {setContentFunc(<DragAndDropZone/>)}} />
-                <Button buttonName={"Test"} onClickFunc={() => {}} />
-                <Button buttonName={"Test"} onClickFunc={() => {}} />
+                <Button buttonName={"All uploads"} onClickFunc={() => {}} />
+                <Button buttonName={"Verify account"} onClickFunc={() => {setContentFunc(<VerificationForm/>)}} />
             </div>
         </div>
     )
 };
 
+async function setupEther(getAccessTokenSilently, userEmail)
+{
+    const ethers = require("ethers")
+
+    try{
+        const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+        const acc = ethers.getAddress(accounts[0])
+
+        let user = await getUserInfo(userEmail)
+        let token = await getAccessTokenSilently()
+
+        let walletExists = await userWalletExists(acc)
+        if(!walletExists)
+            await addWallet(token, user.id, acc);
+    }
+    catch(error){
+        console.log(error.message)
+        alert(`Couldn't connect to MetaMask: ${error.message}\nCheck if you have metamask wallet installed`);
+    }
+}
+
 export const UserPage = () => {
-    const {isAuthenticated} = useAuth0();
-    let [userPageContent, setUserPageContent] = useState(<div></div>);
+    const {isAuthenticated, getAccessTokenSilently, user} = useAuth0();
+    const [userPageContent, setUserPageContent] = useState(null);
+    const [isInitialized, setIsInitialized] = useState(null);
+
+    if(!isInitialized)
+    {
+        setIsInitialized(true)
+        setupEther(getAccessTokenSilently, user.email)
+        onFirstLogin(getAccessTokenSilently, user);
+    }
+    
     // TODO: 
     return(
         isAuthenticated 
         && 
-        <div class='mainBackground'>
+        <div className='mainBackground'>
             <Header/>
             <div className="mainBackground flex-row">
                 {userPageContent}
